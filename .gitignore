@@ -1,8 +1,5 @@
 /.phpunit.cache
 /node_modules
-/public/build
-/public/hot
-/public/storage
 /storage/*.key
 /vendor
 .env
@@ -17,4 +14,11 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Exclude everything in public except essential files
 /public/*
+!/public/index.php
+!/public/.htaccess
+!/public/robots.txt
+!/public/favicon.ico
+!/public/images/
