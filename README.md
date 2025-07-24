@@ -49,3 +49,34 @@ Designs
 
 - 'edit-book-filled.png'
 ![Alt text](public/images/edit-book-filled.png "edit-book-filled.png")
+
+
+## ✅ Tasks to Complete
+
+### 🔧 Landing Page Redesign + Search <!-- branch: feature/landing-search -->
+- ✅ **[landing-ui]** Update the landing page UI to match the design in `book-shop-listing.png`.
+- ✅ **[search-books]** Add search functionality to filter books by title.
+
+### 🐞 Fix Book Update Issue <!-- branch: bugfix/book-update -->
+- [ ] **[fix-book-update]** Investigate and resolve the problem preventing books from being updated.
+
+### 📝 Edit Page Improvements <!-- branch: feature/edit-page -->
+- [ ] **[edit-form-display]** Display existing book data correctly on the edit page (see `edit-book-filled.png`).
+- [ ] **[edit-form-submit]** Ensure submitting an edit updates the book successfully.
+
+### 🌱 Seeder Improvements <!-- branch: chore/random-rating-seeder -->
+- [ ] **[random-rating-seeder]** Modify the seeder so each book has a **random rating between 1 and 10**, instead of all being 5.
+
+### 🗑️ Soft Delete Feature <!-- branch: feature/soft-delete -->
+- [ ] **[soft-delete-books]** Enable **soft deletes** for books so deleted records are retained in the database.
+
+### 📡 API Enhancements (No frontend work required) <!-- branch: feature/genres-api -->
+- [ ] **[api-create-genre]** Add API functionality to create **Genres**.
+- [ ] **[api-link-genres-books]** Add API functionality to assign **multiple Genres to Books**.
+
+### 🧪 Unit Tests <!-- branch: test/book-update -->
+- [ ] **[test-book-update]** Add **unit tests** for the `BookController`'s `update` method.
+
+### 🔄 Rebuild Assurance <!-- branch: chore/verify-rebuild -->
+- [ ] **[verify-rebuild]** Ensure the entire app can be rebuilt from scratch using the setup steps provided.
+

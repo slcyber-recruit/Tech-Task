@@ -6,6 +6,7 @@
     </head>
     <body>
         <div id="app">
+            <Header /> 
             <book-listing></book-listing>
         </div>
 
